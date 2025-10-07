@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Henderson</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <nav id="nav-main" class="hide-nav">
+        <div class="container">
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+    </nav>
+    <header id="header">
+        <div class="container">
+            <h1>Nick Henderson</h1>
+            <p id="subtitle">I'm a Junior Software Engineer based in Madison, Alabama. I'm currently working a part-time
+                internship
+                at NetSkateInc while pursuing my Bachelors degree.</p>
+            <p>
+                <a class="header-links" href="">Resume</a>
+                <a class="header-links" href="mailto:nickbhenderson95@gmail.com">Email</a>
+            </p>
+
+        </div>
+    </header>
+    <main id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+        </div>
+        <div class="container projects-card">
+            <aside class="column">
+                <img src="./public/images/household.png" alt="A picture of HouseHold">
+            </aside>
+            <article class="column">
+                <h3>Household</h3>
+                <p>A budgeting tool geared towards HouseHolds (think roommates, spouses) for keeping track of budgeting
+                    and chores. Built with Bootstrap for styling on the frontend, Node.js, Express.js on the backend and
+                    hooks up to MongoDB as a database. It is built with full CRUD capabilities.</p>
+                <h4>Technologies Used:</h4>
+                <ul class="skills-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Git & GitHub</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </article>
+        </div>
+        <div class="container projects-card">
+            <aside class="column">
+                <img src="./public/images/alabama.png" alt="A picture of Alabama">
+            </aside>
+            <article class="column">
+                <h3>Alabama</h3>
+                <p>A prompt from one of my University classes. A basic site themed around the state of Alabama with a
+                    few pages concerning the three main cities in the state. One particular feature I'm proud of from
+                    the project was the hamburger menu I made from scratch that animates into the state flag when
+                    clicked.</p>
+                <h4>Technologies Used:</h4>
+                <ul class="skills-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                </ul>
+            </article>
+        </div>
+        <div class="container projects-card">
+            <aside class="column">
+                <img src="./public/images/world_map.png" alt="A picture of the world map">
+            </aside>
+            <article class="column">
+                <h3>World Map</h3>
+                <p>A project from another University class, it displays an interactive SVG of the world that makes a
+                    call to the world bank APi to retrieve various information about the selected country and then
+                    displays said information.</p>
+                <h4>Technologies Used:</h4>
+                <ul class="skills-list">
+                    <li>Angular</li>
+                    <li>TypeScript</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                </ul>
+            </article>
+        </div>
+        <div class="container projects-card">
+            <aside class="column">
+                <img src="./public/images/etch_a_sketch.png" alt="A picture of an etch-a-sketch">
+            </aside>
+            <article class="column">
+                <h3>Etch-a-Sketch</h3>
+                <p>Built early on as a prompt for The Odin Project, this project features a dynamically-sized grid that
+                    the user can draw on. Allows the user to change colors and select different modes, and includes a
+                    feature to allow for color inputs based on different formats.</p>
+                <h4>Technologies Used:</h4>
+                <ul class="skills-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+    <section id="about">
+        <div class="container">
+            <!-- <img id="self" src="./public/images/nick_h.jpg" alt="A picture of Nick Henderson"> -->
+            <div id="about-text">
+                <h2>About Me</h2>
+                <p>I'm a Junior Software Engineer based in Madison, Alabama. I'm currently working a part-time
+                    internship
+                    at NetSkateInc while pursuing my Bachelors degree. I have a passion for learning and creating, and
+                    I'm
+                    always looking for new challenges to tackle. In my free time, I enjoy hiking, learning, and playing
+                    video games.</p>
+            </div>
+            <div>
+                <h3 id="skills">Skills</h3>
+                <ul class="skills-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MongoDB</li>
+                    <li>Git & GitHub</li>
+                    <li>RESTful APIs</li>
+                    <li>Bootstrap</li>
+                    <li>Responsive Web Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul class="contact-list">
+                <li><a href="mailto:nickbhenderson95@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/nicholas-henderson-2aa52021b/">LinkedIn</a></li>
+                <li><a href="https://github.com/LilGreenGuy">GitHub</a></li>
+            </ul>
+            <footer id="footer">
+                <p>Copyright ©
+                    <script>document.write(new Date().getFullYear())</script> Nicholas Henderson
+                </p>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>
