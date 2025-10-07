@@ -48,6 +48,10 @@ body {
 	border-bottom: none;
 }
 
+.hide-nav a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
 .nav-scroll {
 	background: rgba(255, 255, 255, 0.9);
 	border-bottom: 1px solid #e2e2e2;
@@ -56,6 +60,10 @@ body {
 .nav-scroll .container a {
 	color: #3c6d96;
 	border-bottom: 1px solid #3c6d967a;
+}
+
+.nav-scroll a:hover {
+    border-bottom: 1px solid #3c6d96;
 }
 
 /* Header styling */
