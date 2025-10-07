@@ -4,11 +4,7 @@
 
 ## Tools used:
 
-### Vanilla JavaScript,
-
-### Vanilla HTML, and
-
-### Vanilla CSS.
+### Vanilla JavaScript, Vanilla HTML, and Vanilla CSS.
 
 ## Future plans:
 
