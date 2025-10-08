@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: "export",
-  basePath: process.env.PAGES_BASE_PATH,
+	/* config options here */
+	output: "export",
+	basePath: "/My-Portfolio",
+	assetPrefix: "/My-Portfolio/",
 };
 
 export default nextConfig;
