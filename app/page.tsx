@@ -11,7 +11,7 @@ export default function Home() {
 					<h1>Nick Henderson</h1>
 					<p id="subtitle">
 						I'm a Junior Software Engineer based in Madison, Alabama. I'm currently working a part-time
-						internship at NetSkateInc while pursuing my Bachelor's degree.
+						web developer internship at NetSkate, Inc while pursuing my Bachelor's degree.
 					</p>
 					<p>
 						<a className="header-links" href="/resume.docx" target="_blank" rel="noopener noreferrer">
@@ -173,14 +173,19 @@ export default function Home() {
 						<h3 id="skills">Skills</h3>
 						<ul className="skills-list">
 							<li>JavaScript (ES6+)</li>
+							<li>TypeScript</li>
 							<li>Python</li>
 							<li>C</li>
 							<li>HTML5</li>
 							<li>CSS3</li>
+							<li>React</li>
+							<li>Angular</li>
+							<li>Next.js</li>
 							<li>Node.js</li>
 							<li>Express.js</li>
+							<li>SQL</li>
 							<li>MongoDB</li>
-							<li>Git & GitHub</li>
+							<li>Git Version Control</li>
 							<li>RESTful APIs</li>
 							<li>Bootstrap</li>
 							<li>Responsive Web Design</li>
